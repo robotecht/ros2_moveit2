@@ -1,0 +1,30 @@
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:8:50:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+    8 | #include<tf2_geometry_msgs/tf2_geometry_msgs.hpp>[01;35m[K>[m[K
+      |                                                  [01;35m[K^[m[K
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:19:46:[m[K [01;31m[Kerror: [m[K‘[01m[KNodes[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KNode[m[K’?
+   19 |   auto const node = std::make_shared<rclcpp::[01;31m[KNodes[m[K>
+      |                                              [01;31m[K^~~~~[m[K
+      |                                              [32m[KNode[m[K
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:19:26:[m[K [01;31m[Kerror: [m[Kunable to deduce ‘[01m[Kconst auto[m[K’ from ‘[01m[Kmake_shared<<expression error> >[m[K’
+   19 |   auto const node = std::[01;31m[Kmake_shared<rclcpp::Nodes>[m[K
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:19:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[Kauto[m[K’
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:20:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+   20 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:53:21:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   53 |   MoveGroupInterface[01;31m[K.[m[KsetPoseTarget(GoalPose);
+      |                     [01;31m[K^[m[K
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:59:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   59 |   auto const outcome = static_cast<bool>(MoveGroupInterface[01;31m[K.[m[Kplan(first_plan));
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:64:23:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   64 |     MoveGroupInterface[01;31m[K.[m[Kexecute(first_plan);
+      |                       [01;31m[K^[m[K
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:72:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   72 |   rclcpp[01;31m[K.[m[Kshutdown();
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/first_pkg.dir/build.make:76: CMakeFiles/first_pkg.dir/src/first_pkg.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/first_pkg.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

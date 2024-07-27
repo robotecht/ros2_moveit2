@@ -1,0 +1,800 @@
+[0.132s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/jellyfish/ws_moveit']
+[0.132s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/jellyfish/ws_moveit'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7bdee94504c0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7bdee955c2e0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7bdee955c2e0>>, mixin_verb=('list',))
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.344s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jellyfish/ws_moveit'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit) by extensions ['cmake', 'python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit) by extension 'python_setup_py'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/build) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/build) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/build) ignored
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/install) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/install) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/install) ignored
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/log) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/log) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/log) ignored
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src) by extension 'ros'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src) by extensions ['cmake', 'python']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src) by extension 'cmake'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src) by extension 'python'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src) by extensions ['python_setup_py']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src) by extension 'python_setup_py'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/hello_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/hello_moveit) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/hello_moveit) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/hello_moveit) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/hello_moveit) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/hello_moveit) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/hello_moveit) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/hello_moveit) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/hello_moveit) by extension 'ros'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/hello_moveit' with type 'ros.ament_cmake' and name 'hello_moveit'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/launch_param_builder) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/launch_param_builder) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/launch_param_builder) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/launch_param_builder) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/launch_param_builder) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/launch_param_builder) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/launch_param_builder) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/launch_param_builder) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/launch_param_builder) by extension 'ros'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/launch_param_builder' with type 'ros.ament_python' and name 'launch_param_builder'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2) by extension 'ros'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2) by extensions ['cmake', 'python']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2) by extension 'cmake'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2) by extension 'python'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2) by extensions ['python_setup_py']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2) by extension 'python_setup_py'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/doc) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/doc) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/doc) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/doc) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/doc) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/doc) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/doc) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/doc) by extension 'ros'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/doc) by extensions ['cmake', 'python']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/doc) by extension 'cmake'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/doc) by extension 'python'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/doc) by extensions ['python_setup_py']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/doc) by extension 'python_setup_py'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit' with type 'ros.ament_cmake' and name 'moveit'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_commander) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_commander) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_commander) ignored
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_common) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_common) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_common) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_common) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_common) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_common) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_common) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_common) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_common) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_common' with type 'ros.ament_cmake' and name 'moveit_common'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_configs_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_configs_utils) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_configs_utils) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_configs_utils) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_configs_utils) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_configs_utils) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_configs_utils) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_configs_utils) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_configs_utils) by extension 'ros'
+[0.373s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_configs_utils' with type 'ros.ament_python' and name 'moveit_configs_utils'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_core) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_core) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_core) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_core) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_core) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_core) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_core) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_core) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_core) by extension 'ros'
+[0.379s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_core' with type 'ros.ament_cmake' and name 'moveit_core'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_experimental) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_experimental) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_experimental) ignored
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_kinematics) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_kinematics) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_kinematics) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_kinematics) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_kinematics) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_kinematics) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_kinematics) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_kinematics) by extension 'ros'
+[0.382s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_kinematics' with type 'ros.ament_cmake' and name 'moveit_kinematics'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners) by extension 'ros'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners) by extensions ['cmake', 'python']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp) by extension 'cmake'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp) by extension 'python'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp) by extensions ['python_setup_py']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp) by extension 'python_setup_py'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_interface) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_interface) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_interface) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_interface) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_interface) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_interface) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_interface) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_interface) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_interface' with type 'ros.ament_cmake' and name 'moveit_planners_chomp'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_motion_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_motion_planner) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_motion_planner) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_motion_planner) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_motion_planner) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_motion_planner) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_motion_planner) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_motion_planner) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_motion_planner) by extension 'ros'
+[0.389s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_motion_planner' with type 'ros.ament_cmake' and name 'chomp_motion_planner'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter) by extension 'ros'
+[0.391s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter' with type 'ros.ament_cmake' and name 'moveit_chomp_optimizer_adapter'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/moveit_planners) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/moveit_planners) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/moveit_planners) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/moveit_planners) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/moveit_planners) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/moveit_planners) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/moveit_planners) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/moveit_planners) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/moveit_planners) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/moveit_planners' with type 'ros.ament_cmake' and name 'moveit_planners'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/ompl) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/ompl) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/ompl) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/ompl) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/ompl) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/ompl) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/ompl) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/ompl) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/ompl) by extension 'ros'
+[0.395s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/ompl' with type 'ros.ament_cmake' and name 'moveit_planners_ompl'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner' with type 'ros.ament_cmake' and name 'pilz_industrial_motion_planner'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils' with type 'ros.ament_cmake' and name 'pilz_industrial_motion_planner_testutils'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs) by extension 'cmake'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs) by extension 'python'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs) by extensions ['python_setup_py']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs) by extension 'python_setup_py'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin) by extension 'ros'
+[0.404s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin' with type 'ros.ament_cmake' and name 'moveit_resources_prbt_ikfast_manipulator_plugin'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_moveit_config) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_moveit_config) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_moveit_config) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_moveit_config) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_moveit_config) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_moveit_config) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_moveit_config) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_moveit_config) by extension 'ros'
+[0.407s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_moveit_config' with type 'ros.ament_cmake' and name 'moveit_resources_prbt_moveit_config'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_pg70_support) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_pg70_support) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_pg70_support) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_pg70_support) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_pg70_support) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_pg70_support) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_pg70_support) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_pg70_support) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_pg70_support) by extension 'ros'
+[0.408s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_pg70_support' with type 'ros.ament_cmake' and name 'moveit_resources_prbt_pg70_support'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_support) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_support) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_support) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_support) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_support) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_support) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_support) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_support) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_support) by extension 'ros'
+[0.410s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_support' with type 'ros.ament_cmake' and name 'moveit_resources_prbt_support'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/trajopt) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/trajopt) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_planners/trajopt) ignored
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins) by extension 'ros'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins) by extensions ['cmake', 'python']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins) by extension 'cmake'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins) by extension 'python'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins) by extensions ['python_setup_py']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins) by extension 'python_setup_py'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_plugins) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_plugins) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_plugins) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_plugins) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_plugins) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_plugins) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_plugins) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_plugins) by extension 'ros'
+[0.412s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_plugins' with type 'ros.ament_cmake' and name 'moveit_plugins'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_ros_control_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_ros_control_interface) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_ros_control_interface) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_ros_control_interface) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_ros_control_interface) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_ros_control_interface) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_ros_control_interface) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_ros_control_interface) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_ros_control_interface) by extension 'ros'
+[0.426s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_ros_control_interface' with type 'ros.ament_cmake' and name 'moveit_ros_control_interface'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_simple_controller_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_simple_controller_manager) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_simple_controller_manager) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_simple_controller_manager) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_simple_controller_manager) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_simple_controller_manager) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_simple_controller_manager) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_simple_controller_manager) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_simple_controller_manager) by extension 'ros'
+[0.428s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_plugins/moveit_simple_controller_manager' with type 'ros.ament_cmake' and name 'moveit_simple_controller_manager'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros) by extensions ['cmake', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros) by extension 'cmake'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros) by extension 'python'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros) by extensions ['python_setup_py']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros) by extension 'python_setup_py'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/benchmarks) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/benchmarks) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/benchmarks) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/benchmarks) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/benchmarks) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/benchmarks) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/benchmarks) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/benchmarks) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/benchmarks) by extension 'ros'
+[0.430s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/benchmarks' with type 'ros.ament_cmake' and name 'moveit_ros_benchmarks'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/hybrid_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/hybrid_planning) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/hybrid_planning) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/hybrid_planning) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/hybrid_planning) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/hybrid_planning) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/hybrid_planning) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/hybrid_planning) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/hybrid_planning) by extension 'ros'
+[0.432s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/hybrid_planning' with type 'ros.ament_cmake' and name 'moveit_hybrid_planning'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/move_group) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/move_group) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/move_group) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/move_group) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/move_group) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/move_group) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/move_group) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/move_group) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/move_group) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/move_group' with type 'ros.ament_cmake' and name 'moveit_ros_move_group'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_ros) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_ros) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_ros) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_ros) by extension 'colcon_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_ros) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_ros) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_ros) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_ros) by extension 'ros'
+[0.436s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_ros' with type 'ros.ament_cmake' and name 'moveit_ros'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_servo) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_servo) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_servo) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_servo) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_servo) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_servo) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_servo) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_servo) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_servo) by extension 'ros'
+[0.438s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/moveit_servo' with type 'ros.ament_cmake' and name 'moveit_servo'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/occupancy_map_monitor) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/occupancy_map_monitor) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/occupancy_map_monitor) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/occupancy_map_monitor) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/occupancy_map_monitor) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/occupancy_map_monitor) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/occupancy_map_monitor) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/occupancy_map_monitor) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/occupancy_map_monitor) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/occupancy_map_monitor' with type 'ros.ament_cmake' and name 'moveit_ros_occupancy_map_monitor'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/perception) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/perception) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/perception) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/perception) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/perception) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/perception) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/perception) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/perception) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/perception) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/perception' with type 'ros.ament_cmake' and name 'moveit_ros_perception'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning' with type 'ros.ament_cmake' and name 'moveit_ros_planning'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning_interface) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning_interface) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning_interface) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning_interface) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning_interface) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning_interface) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning_interface) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning_interface) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/planning_interface' with type 'ros.ament_cmake' and name 'moveit_ros_planning_interface'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/robot_interaction) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/robot_interaction) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/robot_interaction) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/robot_interaction) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/robot_interaction) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/robot_interaction) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/robot_interaction) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/robot_interaction) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/robot_interaction) by extension 'ros'
+[0.450s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/robot_interaction' with type 'ros.ament_cmake' and name 'moveit_ros_robot_interaction'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/visualization) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/visualization) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/visualization) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/visualization) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/visualization) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/visualization) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/visualization) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/visualization) by extension 'ros'
+[0.453s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/visualization' with type 'ros.ament_cmake' and name 'moveit_ros_visualization'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/warehouse) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/warehouse) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/warehouse) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/warehouse) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/warehouse) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/warehouse) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/warehouse) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/warehouse) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/warehouse) by extension 'ros'
+[0.454s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_ros/warehouse' with type 'ros.ament_cmake' and name 'moveit_ros_warehouse'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_runtime) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_runtime) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_runtime) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_runtime) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_runtime) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_runtime) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_runtime) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_runtime) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_runtime) by extension 'ros'
+[0.455s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_runtime' with type 'ros.ament_cmake' and name 'moveit_runtime'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant) by extension 'ros'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant) by extensions ['cmake', 'python']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant) by extension 'cmake'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant) by extension 'python'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant) by extensions ['python_setup_py']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant) by extension 'python_setup_py'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics) by extension 'ros'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics) by extension 'cmake'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics) by extension 'python'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics) by extensions ['python_setup_py']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics) by extension 'python_setup_py'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics/source) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics/source) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics/source) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics/source) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics/source) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics/source) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics/source) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics/source) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics/source) by extension 'ros'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics/source) by extensions ['cmake', 'python']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics/source) by extension 'cmake'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics/source) by extension 'python'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics/source) by extensions ['python_setup_py']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/graphics/source) by extension 'python_setup_py'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins) by extension 'ros'
+[0.459s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins' with type 'ros.ament_cmake' and name 'moveit_setup_app_plugins'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_assistant) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_assistant) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_assistant) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_assistant) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_assistant) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_assistant) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_assistant) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_assistant) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_assistant) by extension 'ros'
+[0.461s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_assistant' with type 'ros.ament_cmake' and name 'moveit_setup_assistant'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_controllers) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_controllers) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_controllers) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_controllers) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_controllers) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_controllers) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_controllers) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_controllers) by extension 'ros'
+[0.462s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_controllers' with type 'ros.ament_cmake' and name 'moveit_setup_controllers'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins) by extension 'ros'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins' with type 'ros.ament_cmake' and name 'moveit_setup_core_plugins'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework) by extension 'ros'
+[0.466s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework' with type 'ros.ament_cmake' and name 'moveit_setup_framework'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_simulation) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_simulation) ignored
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins) by extension 'ros'
+[0.468s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins' with type 'ros.ament_cmake' and name 'moveit_setup_srdf_plugins'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/unported_templates) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/unported_templates) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/unported_templates) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/unported_templates) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/unported_templates) by extension 'colcon_pkg'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/unported_templates) by extensions ['colcon_meta']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/unported_templates) by extension 'colcon_meta'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/unported_templates) by extensions ['ros']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/unported_templates) by extension 'ros'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/unported_templates) by extensions ['cmake', 'python']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/unported_templates) by extension 'cmake'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/unported_templates) by extension 'python'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/unported_templates) by extensions ['python_setup_py']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/unported_templates) by extension 'python_setup_py'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2_tutorials) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2_tutorials) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2_tutorials) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2_tutorials) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2_tutorials) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2_tutorials) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2_tutorials) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit2_tutorials) by extension 'ros'
+[0.471s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit2_tutorials' with type 'ros.ament_cmake' and name 'moveit2_tutorials'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources) by extension 'ros'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources) by extensions ['cmake', 'python']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources) by extension 'cmake'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources) by extension 'python'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources) by extensions ['python_setup_py']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources) by extension 'python_setup_py'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_description) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_description) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_description) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_description) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_description) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_description) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_description) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_description) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_description) by extension 'ros'
+[0.473s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_description' with type 'ros.ament_cmake' and name 'moveit_resources_fanuc_description'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_moveit_config) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_moveit_config) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_moveit_config) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_moveit_config) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_moveit_config) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_moveit_config) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_moveit_config) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_moveit_config) by extension 'ros'
+[0.474s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit_resources/fanuc_moveit_config' with type 'ros.ament_cmake' and name 'moveit_resources_fanuc_moveit_config'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/moveit_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/moveit_resources) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/moveit_resources) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/moveit_resources) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/moveit_resources) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/moveit_resources) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/moveit_resources) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/moveit_resources) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/moveit_resources) by extension 'ros'
+[0.475s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit_resources/moveit_resources' with type 'ros.ament_cmake' and name 'moveit_resources'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_description) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_description) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_description) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_description) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_description) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_description) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_description) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_description) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_description) by extension 'ros'
+[0.476s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit_resources/panda_description' with type 'ros.ament_cmake' and name 'moveit_resources_panda_description'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_moveit_config) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_moveit_config) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_moveit_config) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_moveit_config) by extension 'colcon_pkg'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_moveit_config) by extensions ['colcon_meta']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_moveit_config) by extension 'colcon_meta'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_moveit_config) by extensions ['ros']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/panda_moveit_config) by extension 'ros'
+[0.477s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit_resources/panda_moveit_config' with type 'ros.ament_cmake' and name 'moveit_resources_panda_moveit_config'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/pr2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/pr2_description) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/pr2_description) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/pr2_description) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/pr2_description) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/pr2_description) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/pr2_description) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/pr2_description) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_resources/pr2_description) by extension 'ros'
+[0.479s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit_resources/pr2_description' with type 'ros.ament_cmake' and name 'moveit_resources_pr2_description'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor) by extension 'ros'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor) by extensions ['cmake', 'python']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor) by extension 'python'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor) by extensions ['python_setup_py']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/capabilities) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/capabilities) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/capabilities) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/capabilities) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/capabilities) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/capabilities) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/capabilities) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/capabilities) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/capabilities) by extension 'ros'
+[0.481s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit_task_constructor/capabilities' with type 'ros.ament_cmake' and name 'moveit_task_constructor_capabilities'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/core) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/core) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/core) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/core) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/core) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/core) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/core) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/core) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/core) by extension 'ros'
+[0.483s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit_task_constructor/core' with type 'ros.ament_cmake' and name 'moveit_task_constructor_core'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/demo) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/demo) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/demo) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/demo) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/demo) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/demo) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/demo) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/demo) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/demo) by extension 'ros'
+[0.484s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit_task_constructor/demo' with type 'ros.ament_cmake' and name 'moveit_task_constructor_demo'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs' with type 'ros.ament_cmake' and name 'moveit_task_constructor_msgs'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/rviz_marker_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/rviz_marker_tools) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/rviz_marker_tools) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/rviz_marker_tools) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/rviz_marker_tools) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/rviz_marker_tools) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/rviz_marker_tools) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/rviz_marker_tools) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/rviz_marker_tools) by extension 'ros'
+[0.487s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit_task_constructor/rviz_marker_tools' with type 'ros.ament_cmake' and name 'rviz_marker_tools'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/visualization) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/visualization) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/visualization) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/visualization) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/visualization) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/visualization) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/visualization) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_task_constructor/visualization) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit_task_constructor/visualization' with type 'ros.ament_cmake' and name 'moveit_task_constructor_visualization'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_visual_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_visual_tools) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_visual_tools) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_visual_tools) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_visual_tools) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_visual_tools) by extensions ['colcon_meta']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_visual_tools) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_visual_tools) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/moveit_visual_tools) by extension 'ros'
+[0.491s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/moveit_visual_tools' with type 'ros.ament_cmake' and name 'moveit_visual_tools'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/rosparam_shortcuts) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/rosparam_shortcuts) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/rosparam_shortcuts) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/rosparam_shortcuts) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/rosparam_shortcuts) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/rosparam_shortcuts) by extensions ['colcon_meta']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/rosparam_shortcuts) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/rosparam_shortcuts) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/rosparam_shortcuts) by extension 'ros'
+[0.492s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/rosparam_shortcuts' with type 'ros.ament_cmake' and name 'rosparam_shortcuts'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/srdfdom) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/srdfdom) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/srdfdom) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/srdfdom) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/srdfdom) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/srdfdom) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/srdfdom) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/srdfdom) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jellyfish/ws_moveit/src/srdfdom) by extension 'ros'
+[0.494s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jellyfish/ws_moveit/src/srdfdom' with type 'ros.ament_cmake' and name 'srdfdom'
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

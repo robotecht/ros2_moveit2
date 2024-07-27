@@ -1,0 +1,6 @@
+Invoking command in '/home/jellyfish/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jellyfish/ws_moveit/src/srdfdom -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jellyfish/ws_moveit/install/srdfdom
+Invoked command in '/home/jellyfish/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jellyfish/ws_moveit/src/srdfdom -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jellyfish/ws_moveit/install/srdfdom
+Invoking command in '/home/jellyfish/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jellyfish/ws_moveit/build/srdfdom -- -j12 -l12
+Invoked command in '/home/jellyfish/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jellyfish/ws_moveit/build/srdfdom -- -j12 -l12
+Invoking command in '/home/jellyfish/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jellyfish/ws_moveit/build/srdfdom
+Invoked command in '/home/jellyfish/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jellyfish/ws_moveit/build/srdfdom

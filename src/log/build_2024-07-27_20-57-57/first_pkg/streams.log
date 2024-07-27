@@ -1,0 +1,26 @@
+[0.024s] Invoking command in '/home/jellyfish/ws_moveit/src/build/first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jellyfish/ws_moveit/src/build/first_pkg -- -j12 -l12
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target first_pkg[0m
+[0.263s] [ 50%] [32mBuilding CXX object CMakeFiles/first_pkg.dir/src/first_pkg.cpp.o[0m
+[6.856s] [100%] [32m[1mLinking CXX executable first_pkg[0m
+[7.243s] [100%] Built target first_pkg
+[7.283s] Invoked command in '/home/jellyfish/ws_moveit/src/build/first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jellyfish/ws_moveit/src/build/first_pkg -- -j12 -l12
+[7.384s] Invoking command in '/home/jellyfish/ws_moveit/src/build/first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jellyfish/ws_moveit/src/build/first_pkg
+[7.413s] -- Install configuration: ""
+[7.413s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/lib/first_pkg/first_pkg
+[7.415s] -- Set runtime path of "/home/jellyfish/ws_moveit/src/install/first_pkg/lib/first_pkg/first_pkg" to ""
+[7.415s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/ament_index/resource_index/package_run_dependencies/first_pkg
+[7.416s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/ament_index/resource_index/parent_prefix_path/first_pkg
+[7.416s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/first_pkg/environment/ament_prefix_path.sh
+[7.417s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/first_pkg/environment/ament_prefix_path.dsv
+[7.417s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/first_pkg/environment/path.sh
+[7.417s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/first_pkg/environment/path.dsv
+[7.418s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/first_pkg/local_setup.bash
+[7.418s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/first_pkg/local_setup.sh
+[7.418s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/first_pkg/local_setup.zsh
+[7.418s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/first_pkg/local_setup.dsv
+[7.419s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/first_pkg/package.dsv
+[7.419s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/ament_index/resource_index/packages/first_pkg
+[7.420s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/first_pkg/cmake/first_pkgConfig.cmake
+[7.420s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/first_pkg/cmake/first_pkgConfig-version.cmake
+[7.420s] -- Installing: /home/jellyfish/ws_moveit/src/install/first_pkg/share/first_pkg/package.xml
+[7.425s] Invoked command in '/home/jellyfish/ws_moveit/src/build/first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jellyfish/ws_moveit/src/build/first_pkg

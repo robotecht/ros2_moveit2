@@ -1,0 +1,83 @@
+[0.016s] Invoking command in '/home/jellyfish/ws_moveit/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble /usr/bin/cmake /home/jellyfish/ws_moveit/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jellyfish/ws_moveit/install/rviz_marker_tools
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.163s] -- The CXX compiler identification is GNU 11.4.0
+[0.173s] -- Detecting C compiler ABI info
+[0.293s] -- Detecting C compiler ABI info - done
+[0.300s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.300s] -- Detecting C compile features
+[0.300s] -- Detecting C compile features - done
+[0.303s] -- Detecting CXX compiler ABI info
+[0.414s] -- Detecting CXX compiler ABI info - done
+[0.433s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.434s] -- Detecting CXX compile features
+[0.435s] -- Detecting CXX compile features - done
+[0.443s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.737s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.879s] -- Found moveit_common: 2.5.5 (/home/jellyfish/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+[0.960s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.966s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.966s] -- BACKWARD_HAS_UNWIND=1
+[0.966s] -- BACKWARD_HAS_BACKTRACE=0
+[0.966s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.966s] -- BACKWARD_HAS_DW=1
+[0.966s] -- BACKWARD_HAS_BFD=0
+[0.966s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.969s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.977s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.978s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.008s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.013s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.022s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.034s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.053s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.163s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.219s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.222s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.367s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.406s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.478s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.487s] -- Looking for pthread.h
+[1.603s] -- Looking for pthread.h - found
+[1.604s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.734s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.737s] -- Found Threads: TRUE  
+[1.904s] -- Found tf2_eigen: 0.25.7 (/opt/ros/humble/share/tf2_eigen/cmake)
+[2.244s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.447s] -- Configuring done
+[2.461s] -- Generating done
+[2.462s] -- Build files have been written to: /home/jellyfish/ws_moveit/build/rviz_marker_tools
+[2.472s] Invoked command in '/home/jellyfish/ws_moveit/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble /usr/bin/cmake /home/jellyfish/ws_moveit/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jellyfish/ws_moveit/install/rviz_marker_tools
+[2.476s] Invoking command in '/home/jellyfish/ws_moveit/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble /usr/bin/cmake --build /home/jellyfish/ws_moveit/build/rviz_marker_tools -- -j12 -l12
+[2.555s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o[0m
+[6.944s] [100%] [32m[1mLinking CXX shared library librviz_marker_tools.so[0m
+[7.122s] [100%] Built target rviz_marker_tools
+[7.135s] Invoked command in '/home/jellyfish/ws_moveit/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble /usr/bin/cmake --build /home/jellyfish/ws_moveit/build/rviz_marker_tools -- -j12 -l12
+[7.186s] Invoking command in '/home/jellyfish/ws_moveit/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble /usr/bin/cmake --install /home/jellyfish/ws_moveit/build/rviz_marker_tools
+[7.193s] -- Install configuration: "Release"
+[7.193s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/include
+[7.194s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/include/rviz_marker_tools
+[7.194s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+[7.194s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/lib/librviz_marker_tools.so
+[7.194s] -- Set runtime path of "/home/jellyfish/ws_moveit/install/rviz_marker_tools/lib/librviz_marker_tools.so" to ""
+[7.194s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.sh
+[7.195s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.dsv
+[7.195s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/ament_index/resource_index/package_run_dependencies/rviz_marker_tools
+[7.195s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/ament_index/resource_index/parent_prefix_path/rviz_marker_tools
+[7.195s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.sh
+[7.195s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.dsv
+[7.195s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.sh
+[7.196s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.dsv
+[7.196s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.bash
+[7.196s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.sh
+[7.196s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.zsh
+[7.196s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.dsv
+[7.196s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/package.dsv
+[7.196s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/ament_index/resource_index/packages/rviz_marker_tools
+[7.197s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
+[7.197s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake
+[7.197s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_targets-extras.cmake
+[7.197s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.197s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake
+[7.197s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig-version.cmake
+[7.197s] -- Installing: /home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/package.xml
+[7.201s] Invoked command in '/home/jellyfish/ws_moveit/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble /usr/bin/cmake --install /home/jellyfish/ws_moveit/build/rviz_marker_tools

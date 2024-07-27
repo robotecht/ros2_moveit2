@@ -1,0 +1,83 @@
+[0.020s] Invoking command in '/home/jellyfish/ws_moveit/src/build/first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/jellyfish/ws_moveit/src/first_pkg -DCMAKE_INSTALL_PREFIX=/home/jellyfish/ws_moveit/src/install/first_pkg
+[0.152s] -- The C compiler identification is GNU 11.4.0
+[0.235s] -- The CXX compiler identification is GNU 11.4.0
+[0.245s] -- Detecting C compiler ABI info
+[0.409s] -- Detecting C compiler ABI info - done
+[0.416s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.416s] -- Detecting C compile features
+[0.416s] -- Detecting C compile features - done
+[0.419s] -- Detecting CXX compiler ABI info
+[0.547s] -- Detecting CXX compiler ABI info - done
+[0.554s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.555s] -- Detecting CXX compile features
+[0.555s] -- Detecting CXX compile features - done
+[0.565s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.824s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.020s] -- Found moveit_ros_planning_interface: 2.5.5 (/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[1.423s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.549s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.569s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.593s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.624s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.667s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.652s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.789s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.936s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.949s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.199s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.244s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.319s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.352s] -- Found Threads: TRUE  
+[3.537s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.548s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.618s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.901s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.090s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.782s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.299s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[5.544s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[5.966s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.098s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.098s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jellyfish/ws_moveit/src/first_pkg/include>
+[6.098s] -- Configured cppcheck exclude dirs and/or files: 
+[6.099s] -- Added test 'lint_cmake' to check CMake code style
+[6.102s] -- Added test 'uncrustify' to check C / C++ code style
+[6.102s] -- Configured uncrustify additional arguments: 
+[6.104s] -- Added test 'xmllint' to check XML markup files
+[6.108s] -- Configuring done
+[6.145s] -- Generating done
+[6.146s] -- Build files have been written to: /home/jellyfish/ws_moveit/src/build/first_pkg
+[6.163s] Invoked command in '/home/jellyfish/ws_moveit/src/build/first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/jellyfish/ws_moveit/src/first_pkg -DCMAKE_INSTALL_PREFIX=/home/jellyfish/ws_moveit/src/install/first_pkg
+[6.168s] Invoking command in '/home/jellyfish/ws_moveit/src/build/first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jellyfish/ws_moveit/src/build/first_pkg -- -j12 -l12
+[6.319s] [ 50%] [32mBuilding CXX object CMakeFiles/first_pkg.dir/src/first_pkg.cpp.o[0m
+[7.190s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:8:50:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+[7.190s]     8 | #include<tf2_geometry_msgs/tf2_geometry_msgs.hpp>[01;35m[K>[m[K
+[7.190s]       |                                                  [01;35m[K^[m[K
+[10.678s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.678s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:19:46:[m[K [01;31m[Kerror: [m[K‘[01m[KNodes[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KNode[m[K’?
+[10.679s]    19 |   auto const node = std::make_shared<rclcpp::[01;31m[KNodes[m[K>
+[10.679s]       |                                              [01;31m[K^~~~~[m[K
+[10.679s]       |                                              [32m[KNode[m[K
+[10.679s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:19:26:[m[K [01;31m[Kerror: [m[Kunable to deduce ‘[01m[Kconst auto[m[K’ from ‘[01m[Kmake_shared<<expression error> >[m[K’
+[10.679s]    19 |   auto const node = std::[01;31m[Kmake_shared<rclcpp::Nodes>[m[K
+[10.679s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.679s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:19:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[Kauto[m[K’
+[10.679s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:20:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[10.680s]    20 |   [01;31m[K{[m[K
+[10.680s]       |   [01;31m[K^[m[K
+[10.680s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:53:21:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+[10.680s]    53 |   MoveGroupInterface[01;31m[K.[m[KsetPoseTarget(GoalPose);
+[10.680s]       |                     [01;31m[K^[m[K
+[10.680s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:59:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[10.680s]    59 |   auto const outcome = static_cast<bool>(MoveGroupInterface[01;31m[K.[m[Kplan(first_plan));
+[10.681s]       |                                                            [01;31m[K^[m[K
+[10.681s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:64:23:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+[10.681s]    64 |     MoveGroupInterface[01;31m[K.[m[Kexecute(first_plan);
+[10.681s]       |                       [01;31m[K^[m[K
+[10.681s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:72:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[10.681s]    72 |   rclcpp[01;31m[K.[m[Kshutdown();
+[10.681s]       |         [01;31m[K^[m[K
+[12.824s] gmake[2]: *** [CMakeFiles/first_pkg.dir/build.make:76: CMakeFiles/first_pkg.dir/src/first_pkg.cpp.o] Error 1
+[12.824s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/first_pkg.dir/all] Error 2
+[12.824s] gmake: *** [Makefile:146: all] Error 2
+[12.829s] Invoked command in '/home/jellyfish/ws_moveit/src/build/first_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jellyfish/ws_moveit/src/build/first_pkg -- -j12 -l12

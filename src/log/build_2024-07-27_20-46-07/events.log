@@ -1,0 +1,276 @@
+[0.000000] (-) TimerEvent: {}
+[0.000747] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000819] (-) JobUnselected: {'identifier': 'hello_moveit'}
+[0.000867] (-) JobUnselected: {'identifier': 'launch_param_builder'}
+[0.000916] (-) JobUnselected: {'identifier': 'move_program'}
+[0.000959] (-) JobUnselected: {'identifier': 'moveit'}
+[0.001003] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.001310] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.001359] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.001517] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.001605] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.001851] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.001919] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.002027] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.002094] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.002177] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.002264] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.002332] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.002432] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.002500] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.002600] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.002667] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.002754] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.002803] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.002917] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.003083] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.003160] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.003226] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.003291] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.003358] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.003428] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.003490] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.003576] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.003731] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.003802] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.003893] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.003963] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.004064] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.004179] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.004247] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.004292] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.005165] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.005213] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.005276] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.005319] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.005425] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.005475] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.005522] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.005585] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.005647] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.005752] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.005821] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.005872] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.005915] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.005984] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.006028] (-) JobUnselected: {'identifier': 'rosparam_shortcuts'}
+[0.006092] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.006158] (-) JobUnselected: {'identifier': 'srdfdom'}
+[0.006234] (first_pkg) JobQueued: {'identifier': 'first_pkg', 'dependencies': OrderedDict([('launch_param_builder', '/home/jellyfish/ws_moveit/src/install/launch_param_builder'), ('moveit_common', '/home/jellyfish/ws_moveit/src/install/moveit_common'), ('moveit_resources_fanuc_description', '/home/jellyfish/ws_moveit/src/install/moveit_resources_fanuc_description'), ('moveit_resources_panda_description', '/home/jellyfish/ws_moveit/src/install/moveit_resources_panda_description'), ('moveit_resources_pr2_description', '/home/jellyfish/ws_moveit/src/install/moveit_resources_pr2_description'), ('srdfdom', '/home/jellyfish/ws_moveit/src/install/srdfdom'), ('moveit_configs_utils', '/home/jellyfish/ws_moveit/src/install/moveit_configs_utils'), ('moveit_resources_fanuc_moveit_config', '/home/jellyfish/ws_moveit/src/install/moveit_resources_fanuc_moveit_config'), ('moveit_resources_panda_moveit_config', '/home/jellyfish/ws_moveit/src/install/moveit_resources_panda_moveit_config'), ('moveit_core', '/home/jellyfish/ws_moveit/src/install/moveit_core'), ('moveit_ros_occupancy_map_monitor', '/home/jellyfish/ws_moveit/src/install/moveit_ros_occupancy_map_monitor'), ('moveit_simple_controller_manager', '/home/jellyfish/ws_moveit/src/install/moveit_simple_controller_manager'), ('moveit_ros_planning', '/home/jellyfish/ws_moveit/src/install/moveit_ros_planning'), ('moveit_kinematics', '/home/jellyfish/ws_moveit/src/install/moveit_kinematics'), ('moveit_planners_ompl', '/home/jellyfish/ws_moveit/src/install/moveit_planners_ompl'), ('moveit_ros_warehouse', '/home/jellyfish/ws_moveit/src/install/moveit_ros_warehouse'), ('moveit_ros_move_group', '/home/jellyfish/ws_moveit/src/install/moveit_ros_move_group'), ('moveit_ros_planning_interface', '/home/jellyfish/ws_moveit/src/install/moveit_ros_planning_interface')])}
+[0.006342] (first_pkg) JobStarted: {'identifier': 'first_pkg'}
+[0.023421] (first_pkg) JobProgress: {'identifier': 'first_pkg', 'progress': 'cmake'}
+[0.023739] (first_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/jellyfish/ws_moveit/src/first_pkg', '-DCMAKE_INSTALL_PREFIX=/home/jellyfish/ws_moveit/src/install/first_pkg'], 'cwd': '/home/jellyfish/ws_moveit/src/build/first_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'jellyfish'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/jellyfish/ws_moveit/install/moveit_visual_tools/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_demo/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/lib:/home/jellyfish/ws_moveit/install/moveit_ros_control_interface/lib:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager/lib:/home/jellyfish/ws_moveit/install/moveit_setup_assistant/lib:/home/jellyfish/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/jellyfish/ws_moveit/install/moveit_setup_core_plugins/lib:/home/jellyfish/ws_moveit/install/moveit_setup_controllers/lib:/home/jellyfish/ws_moveit/install/moveit_setup_app_plugins/lib:/home/jellyfish/ws_moveit/install/moveit_setup_framework/lib:/home/jellyfish/ws_moveit/install/moveit_servo/lib:/home/jellyfish/ws_moveit/install/moveit_ros_visualization/lib:/home/jellyfish/ws_moveit/install/moveit_hybrid_planning/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface/lib:/home/jellyfish/ws_moveit/install/moveit_ros_benchmarks/lib:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse/lib:/home/jellyfish/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/jellyfish/ws_moveit/install/moveit_ros_perception/lib:/home/jellyfish/ws_moveit/install/moveit_ros_move_group/lib:/home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning/lib:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/jellyfish/ws_moveit/install/moveit_planners_chomp/lib:/home/jellyfish/ws_moveit/install/moveit_kinematics/lib:/home/jellyfish/ws_moveit/install/moveit_chomp_optimizer_adapter/lib:/home/jellyfish/ws_moveit/install/chomp_motion_planner/lib:/home/jellyfish/ws_moveit/install/moveit_core/lib:/home/jellyfish/ws_moveit/install/srdfdom/lib:/home/jellyfish/ws_moveit/install/rviz_marker_tools/lib:/home/jellyfish/ws_moveit/install/rosparam_shortcuts/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jellyfish'), ('OLDPWD', '/home/jellyfish/ws_moveit'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1890'), ('SYSTEMD_EXEC_PID', '2293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3887'), ('COLCON_PREFIX_PATH', '/home/jellyfish/ws_moveit/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jellyfish'), ('JOURNAL_STREAM', '8:35257'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jellyfish'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jellyfish/ws_moveit/install/moveit_core/bin:/opt/ros/humble/bin:/home/jellyfish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jellyfish-OMEN:@/tmp/.ICE-unix/2246,unix/jellyfish-OMEN:/tmp/.ICE-unix/2246'), ('INVOCATION_ID', '0bf3b05a468e46fda7ac21bef31e24fc'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jellyfish/ws_moveit/install/hello_moveit:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_runtime:/home/jellyfish/ws_moveit/install/moveit2_tutorials:/home/jellyfish/ws_moveit/install/moveit:/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_visual_tools:/home/jellyfish/ws_moveit/install/moveit_task_constructor_visualization:/home/jellyfish/ws_moveit/install/moveit_task_constructor_demo:/home/jellyfish/ws_moveit/install/moveit_task_constructor_capabilities:/home/jellyfish/ws_moveit/install/moveit_task_constructor_core:/home/jellyfish/ws_moveit/install/moveit_ros_control_interface:/home/jellyfish/ws_moveit/install/moveit_plugins:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_setup_assistant:/home/jellyfish/ws_moveit/install/moveit_setup_srdf_plugins:/home/jellyfish/ws_moveit/install/moveit_setup_core_plugins:/home/jellyfish/ws_moveit/install/moveit_setup_controllers:/home/jellyfish/ws_moveit/install/moveit_setup_app_plugins:/home/jellyfish/ws_moveit/install/moveit_setup_framework:/home/jellyfish/ws_moveit/install/moveit_servo:/home/jellyfish/ws_moveit/install/moveit_ros:/home/jellyfish/ws_moveit/install/moveit_ros_visualization:/home/jellyfish/ws_moveit/install/moveit_hybrid_planning:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_ros_benchmarks:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_ros_robot_interaction:/home/jellyfish/ws_moveit/install/moveit_ros_perception:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_planners_chomp:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/jellyfish/ws_moveit/install/chomp_motion_planner:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/rosparam_shortcuts:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/home/jellyfish/ws_moveit/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ae609959-0529-4232-80ff-a8e4214c0747'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jellyfish/ws_moveit/src/build/first_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jellyfish/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jellyfish/ws_moveit/install/hello_moveit:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_runtime:/home/jellyfish/ws_moveit/install/moveit2_tutorials:/home/jellyfish/ws_moveit/install/moveit:/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_visual_tools:/home/jellyfish/ws_moveit/install/moveit_task_constructor_visualization:/home/jellyfish/ws_moveit/install/moveit_task_constructor_demo:/home/jellyfish/ws_moveit/install/moveit_task_constructor_capabilities:/home/jellyfish/ws_moveit/install/moveit_task_constructor_core:/home/jellyfish/ws_moveit/install/moveit_ros_control_interface:/home/jellyfish/ws_moveit/install/moveit_plugins:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_setup_assistant:/home/jellyfish/ws_moveit/install/moveit_setup_srdf_plugins:/home/jellyfish/ws_moveit/install/moveit_setup_core_plugins:/home/jellyfish/ws_moveit/install/moveit_setup_controllers:/home/jellyfish/ws_moveit/install/moveit_setup_app_plugins:/home/jellyfish/ws_moveit/install/moveit_setup_framework:/home/jellyfish/ws_moveit/install/moveit_servo:/home/jellyfish/ws_moveit/install/moveit_ros:/home/jellyfish/ws_moveit/install/moveit_ros_visualization:/home/jellyfish/ws_moveit/install/moveit_hybrid_planning:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_ros_benchmarks:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_ros_robot_interaction:/home/jellyfish/ws_moveit/install/moveit_ros_perception:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_planners_chomp:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/jellyfish/ws_moveit/install/chomp_motion_planner:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/rosparam_shortcuts:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.099751] (-) TimerEvent: {}
+[0.158005] (first_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199831] (-) TimerEvent: {}
+[0.241023] (first_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.250702] (first_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299988] (-) TimerEvent: {}
+[0.400382] (-) TimerEvent: {}
+[0.414840] (first_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.421742] (first_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.422123] (first_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.422326] (first_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.425136] (first_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500521] (-) TimerEvent: {}
+[0.553276] (first_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.560586] (first_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.560886] (first_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.561224] (first_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.571714] (first_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600645] (-) TimerEvent: {}
+[0.700928] (-) TimerEvent: {}
+[0.801212] (-) TimerEvent: {}
+[0.830436] (first_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901332] (-) TimerEvent: {}
+[1.001694] (-) TimerEvent: {}
+[1.026054] (first_pkg) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)\n'}
+[1.101812] (-) TimerEvent: {}
+[1.202085] (-) TimerEvent: {}
+[1.302413] (-) TimerEvent: {}
+[1.402778] (-) TimerEvent: {}
+[1.428880] (first_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.503150] (-) TimerEvent: {}
+[1.554898] (first_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.575100] (first_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.599292] (first_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.603823] (-) TimerEvent: {}
+[1.629815] (first_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.673545] (first_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.703957] (-) TimerEvent: {}
+[1.804313] (-) TimerEvent: {}
+[1.904629] (-) TimerEvent: {}
+[2.004915] (-) TimerEvent: {}
+[2.105714] (-) TimerEvent: {}
+[2.206308] (-) TimerEvent: {}
+[2.306666] (-) TimerEvent: {}
+[2.407040] (-) TimerEvent: {}
+[2.507381] (-) TimerEvent: {}
+[2.607748] (-) TimerEvent: {}
+[2.657885] (first_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[2.707868] (-) TimerEvent: {}
+[2.795456] (first_pkg) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[2.807975] (-) TimerEvent: {}
+[2.908244] (-) TimerEvent: {}
+[2.942411] (first_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.954975] (first_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.008378] (-) TimerEvent: {}
+[3.108734] (-) TimerEvent: {}
+[3.205375] (first_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.208862] (-) TimerEvent: {}
+[3.250048] (first_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.308973] (-) TimerEvent: {}
+[3.325332] (first_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.358456] (first_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.409079] (-) TimerEvent: {}
+[3.509363] (-) TimerEvent: {}
+[3.543684] (first_pkg) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.554343] (first_pkg) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[3.609497] (-) TimerEvent: {}
+[3.623980] (first_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[3.709642] (-) TimerEvent: {}
+[3.810093] (-) TimerEvent: {}
+[3.907164] (first_pkg) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[3.910204] (-) TimerEvent: {}
+[4.010523] (-) TimerEvent: {}
+[4.096321] (first_pkg) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.110649] (-) TimerEvent: {}
+[4.210993] (-) TimerEvent: {}
+[4.311336] (-) TimerEvent: {}
+[4.411712] (-) TimerEvent: {}
+[4.511996] (-) TimerEvent: {}
+[4.612263] (-) TimerEvent: {}
+[4.712590] (-) TimerEvent: {}
+[4.787811] (first_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[4.812711] (-) TimerEvent: {}
+[4.912982] (-) TimerEvent: {}
+[5.013340] (-) TimerEvent: {}
+[5.113679] (-) TimerEvent: {}
+[5.214007] (-) TimerEvent: {}
+[5.305268] (first_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[5.314173] (-) TimerEvent: {}
+[5.414594] (-) TimerEvent: {}
+[5.515015] (-) TimerEvent: {}
+[5.550072] (first_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[5.615181] (-) TimerEvent: {}
+[5.715857] (-) TimerEvent: {}
+[5.816264] (-) TimerEvent: {}
+[5.916665] (-) TimerEvent: {}
+[5.972475] (first_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.016799] (-) TimerEvent: {}
+[6.103625] (first_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.104095] (first_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jellyfish/ws_moveit/src/first_pkg/include>\n'}
+[6.104273] (first_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.105588] (first_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.107695] (first_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.107945] (first_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.110151] (first_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.114381] (first_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.116868] (-) TimerEvent: {}
+[6.150680] (first_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[6.152538] (first_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/jellyfish/ws_moveit/src/build/first_pkg\n'}
+[6.168754] (first_pkg) CommandEnded: {'returncode': 0}
+[6.169910] (first_pkg) JobProgress: {'identifier': 'first_pkg', 'progress': 'build'}
+[6.172724] (first_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jellyfish/ws_moveit/src/build/first_pkg', '--', '-j12', '-l12'], 'cwd': '/home/jellyfish/ws_moveit/src/build/first_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'jellyfish'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/jellyfish/ws_moveit/install/moveit_visual_tools/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_demo/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/lib:/home/jellyfish/ws_moveit/install/moveit_ros_control_interface/lib:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager/lib:/home/jellyfish/ws_moveit/install/moveit_setup_assistant/lib:/home/jellyfish/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/jellyfish/ws_moveit/install/moveit_setup_core_plugins/lib:/home/jellyfish/ws_moveit/install/moveit_setup_controllers/lib:/home/jellyfish/ws_moveit/install/moveit_setup_app_plugins/lib:/home/jellyfish/ws_moveit/install/moveit_setup_framework/lib:/home/jellyfish/ws_moveit/install/moveit_servo/lib:/home/jellyfish/ws_moveit/install/moveit_ros_visualization/lib:/home/jellyfish/ws_moveit/install/moveit_hybrid_planning/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface/lib:/home/jellyfish/ws_moveit/install/moveit_ros_benchmarks/lib:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse/lib:/home/jellyfish/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/jellyfish/ws_moveit/install/moveit_ros_perception/lib:/home/jellyfish/ws_moveit/install/moveit_ros_move_group/lib:/home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning/lib:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/jellyfish/ws_moveit/install/moveit_planners_chomp/lib:/home/jellyfish/ws_moveit/install/moveit_kinematics/lib:/home/jellyfish/ws_moveit/install/moveit_chomp_optimizer_adapter/lib:/home/jellyfish/ws_moveit/install/chomp_motion_planner/lib:/home/jellyfish/ws_moveit/install/moveit_core/lib:/home/jellyfish/ws_moveit/install/srdfdom/lib:/home/jellyfish/ws_moveit/install/rviz_marker_tools/lib:/home/jellyfish/ws_moveit/install/rosparam_shortcuts/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jellyfish'), ('OLDPWD', '/home/jellyfish/ws_moveit'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1890'), ('SYSTEMD_EXEC_PID', '2293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3887'), ('COLCON_PREFIX_PATH', '/home/jellyfish/ws_moveit/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jellyfish'), ('JOURNAL_STREAM', '8:35257'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jellyfish'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jellyfish/ws_moveit/install/moveit_core/bin:/opt/ros/humble/bin:/home/jellyfish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jellyfish-OMEN:@/tmp/.ICE-unix/2246,unix/jellyfish-OMEN:/tmp/.ICE-unix/2246'), ('INVOCATION_ID', '0bf3b05a468e46fda7ac21bef31e24fc'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jellyfish/ws_moveit/install/hello_moveit:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_runtime:/home/jellyfish/ws_moveit/install/moveit2_tutorials:/home/jellyfish/ws_moveit/install/moveit:/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_visual_tools:/home/jellyfish/ws_moveit/install/moveit_task_constructor_visualization:/home/jellyfish/ws_moveit/install/moveit_task_constructor_demo:/home/jellyfish/ws_moveit/install/moveit_task_constructor_capabilities:/home/jellyfish/ws_moveit/install/moveit_task_constructor_core:/home/jellyfish/ws_moveit/install/moveit_ros_control_interface:/home/jellyfish/ws_moveit/install/moveit_plugins:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_setup_assistant:/home/jellyfish/ws_moveit/install/moveit_setup_srdf_plugins:/home/jellyfish/ws_moveit/install/moveit_setup_core_plugins:/home/jellyfish/ws_moveit/install/moveit_setup_controllers:/home/jellyfish/ws_moveit/install/moveit_setup_app_plugins:/home/jellyfish/ws_moveit/install/moveit_setup_framework:/home/jellyfish/ws_moveit/install/moveit_servo:/home/jellyfish/ws_moveit/install/moveit_ros:/home/jellyfish/ws_moveit/install/moveit_ros_visualization:/home/jellyfish/ws_moveit/install/moveit_hybrid_planning:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_ros_benchmarks:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_ros_robot_interaction:/home/jellyfish/ws_moveit/install/moveit_ros_perception:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_planners_chomp:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/jellyfish/ws_moveit/install/chomp_motion_planner:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/rosparam_shortcuts:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/home/jellyfish/ws_moveit/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ae609959-0529-4232-80ff-a8e4214c0747'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jellyfish/ws_moveit/src/build/first_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jellyfish/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jellyfish/ws_moveit/install/hello_moveit:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_runtime:/home/jellyfish/ws_moveit/install/moveit2_tutorials:/home/jellyfish/ws_moveit/install/moveit:/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_visual_tools:/home/jellyfish/ws_moveit/install/moveit_task_constructor_visualization:/home/jellyfish/ws_moveit/install/moveit_task_constructor_demo:/home/jellyfish/ws_moveit/install/moveit_task_constructor_capabilities:/home/jellyfish/ws_moveit/install/moveit_task_constructor_core:/home/jellyfish/ws_moveit/install/moveit_ros_control_interface:/home/jellyfish/ws_moveit/install/moveit_plugins:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_setup_assistant:/home/jellyfish/ws_moveit/install/moveit_setup_srdf_plugins:/home/jellyfish/ws_moveit/install/moveit_setup_core_plugins:/home/jellyfish/ws_moveit/install/moveit_setup_controllers:/home/jellyfish/ws_moveit/install/moveit_setup_app_plugins:/home/jellyfish/ws_moveit/install/moveit_setup_framework:/home/jellyfish/ws_moveit/install/moveit_servo:/home/jellyfish/ws_moveit/install/moveit_ros:/home/jellyfish/ws_moveit/install/moveit_ros_visualization:/home/jellyfish/ws_moveit/install/moveit_hybrid_planning:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_ros_benchmarks:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_ros_robot_interaction:/home/jellyfish/ws_moveit/install/moveit_ros_perception:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_planners_chomp:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/jellyfish/ws_moveit/install/chomp_motion_planner:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/rosparam_shortcuts:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[6.217025] (-) TimerEvent: {}
+[6.317379] (-) TimerEvent: {}
+[6.325312] (first_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/first_pkg.dir/src/first_pkg.cpp.o\x1b[0m\n'}
+[6.417538] (-) TimerEvent: {}
+[6.518068] (-) TimerEvent: {}
+[6.618463] (-) TimerEvent: {}
+[6.718780] (-) TimerEvent: {}
+[6.819096] (-) TimerEvent: {}
+[6.919456] (-) TimerEvent: {}
+[7.020335] (-) TimerEvent: {}
+[7.120694] (-) TimerEvent: {}
+[7.196261] (first_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:8:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra tokens at end of #include directive\n'}
+[7.196526] (first_pkg) StderrLine: {'line': b'    8 | #include<tf2_geometry_msgs/tf2_geometry_msgs.hpp>\x1b[01;35m\x1b[K>\x1b[m\x1b[K\n'}
+[7.196652] (first_pkg) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.220849] (-) TimerEvent: {}
+[7.321231] (-) TimerEvent: {}
+[7.421613] (-) TimerEvent: {}
+[7.521997] (-) TimerEvent: {}
+[7.622376] (-) TimerEvent: {}
+[7.722756] (-) TimerEvent: {}
+[7.823123] (-) TimerEvent: {}
+[7.923505] (-) TimerEvent: {}
+[8.023919] (-) TimerEvent: {}
+[8.124295] (-) TimerEvent: {}
+[8.224664] (-) TimerEvent: {}
+[8.325055] (-) TimerEvent: {}
+[8.425406] (-) TimerEvent: {}
+[8.525829] (-) TimerEvent: {}
+[8.626213] (-) TimerEvent: {}
+[8.726587] (-) TimerEvent: {}
+[8.826969] (-) TimerEvent: {}
+[8.927317] (-) TimerEvent: {}
+[9.028163] (-) TimerEvent: {}
+[9.128522] (-) TimerEvent: {}
+[9.228883] (-) TimerEvent: {}
+[9.329256] (-) TimerEvent: {}
+[9.429640] (-) TimerEvent: {}
+[9.530027] (-) TimerEvent: {}
+[9.630379] (-) TimerEvent: {}
+[9.730779] (-) TimerEvent: {}
+[9.831221] (-) TimerEvent: {}
+[9.931583] (-) TimerEvent: {}
+[10.031991] (-) TimerEvent: {}
+[10.132359] (-) TimerEvent: {}
+[10.232750] (-) TimerEvent: {}
+[10.333124] (-) TimerEvent: {}
+[10.433580] (-) TimerEvent: {}
+[10.533987] (-) TimerEvent: {}
+[10.634358] (-) TimerEvent: {}
+[10.684289] (first_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.684628] (first_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:19:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNodes\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.684908] (first_pkg) StderrLine: {'line': b'   19 |   auto const node = std::make_shared<rclcpp::\x1b[01;31m\x1b[KNodes\x1b[m\x1b[K>\n'}
+[10.685035] (first_pkg) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.685154] (first_pkg) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[KNode\x1b[m\x1b[K\n'}
+[10.685273] (first_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:19:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to deduce \xe2\x80\x98\x1b[01m\x1b[Kconst auto\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.685394] (first_pkg) StderrLine: {'line': b'   19 |   auto const node = std::\x1b[01;31m\x1b[Kmake_shared<rclcpp::Nodes>\x1b[m\x1b[K\n'}
+[10.685512] (first_pkg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.685629] (first_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:19:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.685748] (first_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:20:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[10.685870] (first_pkg) StderrLine: {'line': b'   20 |   \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[10.685987] (first_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.686111] (first_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:53:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[10.686265] (first_pkg) StderrLine: {'line': b'   53 |   MoveGroupInterface\x1b[01;31m\x1b[K.\x1b[m\x1b[KsetPoseTarget(GoalPose);\n'}
+[10.686387] (first_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.686507] (first_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:59:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[10.686712] (first_pkg) StderrLine: {'line': b'   59 |   auto const outcome = static_cast<bool>(MoveGroupInterface\x1b[01;31m\x1b[K.\x1b[m\x1b[Kplan(first_plan));\n'}
+[10.686830] (first_pkg) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.686942] (first_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:64:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[10.687056] (first_pkg) StderrLine: {'line': b'   64 |     MoveGroupInterface\x1b[01;31m\x1b[K.\x1b[m\x1b[Kexecute(first_plan);\n'}
+[10.687166] (first_pkg) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.687277] (first_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:72:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[10.687407] (first_pkg) StderrLine: {'line': b'   72 |   rclcpp\x1b[01;31m\x1b[K.\x1b[m\x1b[Kshutdown();\n'}
+[10.687519] (first_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.734510] (-) TimerEvent: {}
+[10.834904] (-) TimerEvent: {}
+[10.935279] (-) TimerEvent: {}
+[11.035678] (-) TimerEvent: {}
+[11.136031] (-) TimerEvent: {}
+[11.236412] (-) TimerEvent: {}
+[11.336786] (-) TimerEvent: {}
+[11.437162] (-) TimerEvent: {}
+[11.537542] (-) TimerEvent: {}
+[11.637918] (-) TimerEvent: {}
+[11.738295] (-) TimerEvent: {}
+[11.838676] (-) TimerEvent: {}
+[11.939059] (-) TimerEvent: {}
+[12.039452] (-) TimerEvent: {}
+[12.139823] (-) TimerEvent: {}
+[12.240190] (-) TimerEvent: {}
+[12.340557] (-) TimerEvent: {}
+[12.440968] (-) TimerEvent: {}
+[12.541343] (-) TimerEvent: {}
+[12.641720] (-) TimerEvent: {}
+[12.742086] (-) TimerEvent: {}
+[12.829732] (first_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/first_pkg.dir/build.make:76: CMakeFiles/first_pkg.dir/src/first_pkg.cpp.o] Error 1\n'}
+[12.830141] (first_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/first_pkg.dir/all] Error 2\n'}
+[12.830520] (first_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.835426] (first_pkg) CommandEnded: {'returncode': 2}
+[12.842263] (-) TimerEvent: {}
+[12.936633] (first_pkg) JobEnded: {'identifier': 'first_pkg', 'rc': 2}
+[12.942386] (-) TimerEvent: {}
+[12.947133] (-) EventReactorShutdown: {}

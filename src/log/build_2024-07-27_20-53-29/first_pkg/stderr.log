@@ -1,0 +1,16 @@
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:52:36:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setPoseTarget(const Pose&, const string&)[m[K’ without object
+   52 |   [01;31m[KMoveGroupInterface::setPoseTarget(GoalPose)[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:58:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   58 |   auto const outcome = static_cast<bool>(MoveGroupInterface[01;31m[K.[m[Kplan(first_plan));
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:63:23:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   63 |     MoveGroupInterface[01;31m[K.[m[Kexecute(first_plan);
+      |                       [01;31m[K^[m[K
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:71:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   71 |   rclcpp[01;31m[K.[m[Kshutdown();
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/first_pkg.dir/build.make:76: CMakeFiles/first_pkg.dir/src/first_pkg.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/first_pkg.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

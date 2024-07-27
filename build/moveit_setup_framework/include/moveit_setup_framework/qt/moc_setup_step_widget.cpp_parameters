@@ -1,0 +1,7 @@
+-I/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework
+-I/home/jellyfish/ws_moveit/build/moveit_setup_framework
+-DBACKWARD_HAS_DW=1
+-DROS_PACKAGE_NAME="moveit_setup_framework"
+-o
+/home/jellyfish/ws_moveit/build/moveit_setup_framework/include/moveit_setup_framework/qt/moc_setup_step_widget.cpp
+/home/jellyfish/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/include/moveit_setup_framework/qt/setup_step_widget.hpp

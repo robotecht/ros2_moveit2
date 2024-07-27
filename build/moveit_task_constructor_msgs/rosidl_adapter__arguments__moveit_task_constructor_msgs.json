@@ -1,0 +1,17 @@
+{
+  "package_name": "moveit_task_constructor_msgs",
+  "non_idl_tuples": [
+    "/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs:msg/Property.msg",
+    "/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs:msg/Solution.msg",
+    "/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs:msg/SolutionInfo.msg",
+    "/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs:msg/StageDescription.msg",
+    "/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs:msg/StageStatistics.msg",
+    "/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs:msg/SubSolution.msg",
+    "/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs:msg/SubTrajectory.msg",
+    "/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs:msg/TaskDescription.msg",
+    "/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs:msg/TaskStatistics.msg",
+    "/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs:msg/TrajectoryExecutionInfo.msg",
+    "/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs:srv/GetSolution.srv",
+    "/home/jellyfish/ws_moveit/src/moveit_task_constructor/msgs:action/ExecuteTaskSolution.action"
+  ]
+}

@@ -1,0 +1,178 @@
+[0.031s] Invoking command in '/home/jellyfish/ws_moveit/build/moveit_planners_ompl': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning/lib:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jellyfish/ws_moveit/install/moveit_core/lib:/home/jellyfish/ws_moveit/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/jellyfish/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jellyfish/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jellyfish/ws_moveit/src/moveit2/moveit_planners/ompl -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jellyfish/ws_moveit/install/moveit_planners_ompl
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.239s] -- The CXX compiler identification is GNU 11.4.0
+[0.250s] -- Detecting C compiler ABI info
+[0.373s] -- Detecting C compiler ABI info - done
+[0.392s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.392s] -- Detecting C compile features
+[0.393s] -- Detecting C compile features - done
+[0.401s] -- Detecting CXX compiler ABI info
+[0.574s] -- Detecting CXX compiler ABI info - done
+[0.593s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.594s] -- Detecting CXX compile features
+[0.595s] -- Detecting CXX compile features - done
+[0.601s] -- Found moveit_common: 2.5.5 (/home/jellyfish/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+[0.604s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.845s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.062s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.067s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.067s] -- BACKWARD_HAS_UNWIND=1
+[1.067s] -- BACKWARD_HAS_BACKTRACE=0
+[1.067s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.068s] -- BACKWARD_HAS_DW=1
+[1.068s] -- BACKWARD_HAS_BFD=0
+[1.068s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.464s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread serialization 
+[1.468s] -- Found moveit_core: 2.5.5 (/home/jellyfish/ws_moveit/install/moveit_core/share/moveit_core/cmake)
+[1.517s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.578s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.628s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.635s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.645s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.661s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.683s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.760s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.764s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.951s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.011s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.073s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.086s] -- Found Threads: TRUE  
+[2.263s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.267s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.315s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.536s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.839s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.908s] -- Found moveit_ros_planning: 2.5.5 (/home/jellyfish/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[3.912s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[4.317s] -- Found ompl: /opt/ros/humble/include/ompl-1.6;/usr/include;/usr/include/eigen3  
+[4.763s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[4.949s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[4.949s] -- Found OpenMP: TRUE (found version "4.5")  
+[4.980s] -- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.991s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.047s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.092s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.092s] -- Configured cppcheck include dirs: /home/jellyfish/ws_moveit/src/moveit2/moveit_planners/ompl/ompl_interface/include
+[5.092s] -- Configured cppcheck exclude dirs and/or files: 
+[5.094s] -- Added test 'lint_cmake' to check CMake code style
+[5.096s] -- Added test 'xmllint' to check XML markup files
+[5.098s] -- Configuring done
+[5.270s] -- Generating done
+[5.274s] -- Build files have been written to: /home/jellyfish/ws_moveit/build/moveit_planners_ompl
+[5.290s] Invoked command in '/home/jellyfish/ws_moveit/build/moveit_planners_ompl' returned '0': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning/lib:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jellyfish/ws_moveit/install/moveit_core/lib:/home/jellyfish/ws_moveit/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/jellyfish/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jellyfish/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jellyfish/ws_moveit/src/moveit2/moveit_planners/ompl -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jellyfish/ws_moveit/install/moveit_planners_ompl
+[5.292s] Invoking command in '/home/jellyfish/ws_moveit/build/moveit_planners_ompl': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning/lib:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jellyfish/ws_moveit/install/moveit_core/lib:/home/jellyfish/ws_moveit/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/jellyfish/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jellyfish/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jellyfish/ws_moveit/build/moveit_planners_ompl -- -j12 -l12
+[5.376s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.376s] [  9%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/model_based_planning_context.cpp.o[0m
+[5.376s] [  9%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/ompl_interface.cpp.o[0m
+[5.376s] [  9%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/model_based_state_space.cpp.o[0m
+[5.376s] [ 14%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/planning_context_manager.cpp.o[0m
+[5.376s] [ 14%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/constrained_planning_state_space_factory.cpp.o[0m
+[5.376s] [ 24%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/model_based_state_space_factory.cpp.o[0m
+[5.377s] [ 24%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/joint_model_state_space.cpp.o[0m
+[5.377s] [ 24%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/constrained_planning_state_space.cpp.o[0m
+[5.377s] [ 24%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/work_space/pose_model_state_space.cpp.o[0m
+[5.383s] [ 26%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/joint_model_state_space_factory.cpp.o[0m
+[5.386s] [ 29%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.665s] [ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.767s] [ 31%] Built target gtest_main
+[6.781s] [ 34%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/work_space/pose_model_state_space_factory.cpp.o[0m
+[17.194s] [ 36%] [32m[1mLinking CXX static library libgtest.a[0m
+[17.310s] [ 36%] Built target gtest
+[17.328s] [ 39%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/ompl_constraints.cpp.o[0m
+[18.158s] [ 41%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/threadsafe_state_storage.cpp.o[0m
+[18.194s] [ 43%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/state_validity_checker.cpp.o[0m
+[18.509s] [ 46%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/projection_evaluators.cpp.o[0m
+[18.625s] [ 48%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/goal_union.cpp.o[0m
+[18.742s] [ 51%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constraints_library.cpp.o[0m
+[19.339s] [ 53%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_sampler.cpp.o[0m
+[19.773s] [ 56%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_valid_state_sampler.cpp.o[0m
+[20.161s] [ 58%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_goal_sampler.cpp.o[0m
+[35.245s] [ 60%] [32m[1mLinking CXX shared library libmoveit_ompl_interface.so[0m
+[35.810s] [ 60%] Built target moveit_ompl_interface
+[35.841s] [ 63%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_constrained_state_validity_checker.dir/test/test_constrained_state_validity_checker.cpp.o[0m
+[35.841s] [ 65%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_state_space.dir/test/test_state_space.cpp.o[0m
+[35.844s] [ 68%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_planning_context_manager.dir/test/test_planning_context_manager.cpp.o[0m
+[35.845s] [ 70%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_planner_plugin.dir/src/ompl_planner_manager.cpp.o[0m
+[35.850s] [ 73%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_threadsafe_state_storage.dir/test/test_threadsafe_state_storage.cpp.o[0m
+[35.850s] [ 75%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_generate_state_database.dir/scripts/generate_state_database.cpp.o[0m
+[35.859s] [ 78%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_state_validity_checker.dir/test/test_state_validity_checker.cpp.o[0m
+[35.859s] [ 80%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_constrained_planning_state_space.dir/test/test_constrained_planning_state_space.cpp.o[0m
+[41.659s] [ 82%] [32m[1mLinking CXX executable test_threadsafe_state_storage[0m
+[42.254s] [ 82%] Built target test_threadsafe_state_storage
+[45.877s] [ 85%] [32m[1mLinking CXX executable test_state_space[0m
+[46.425s] [ 87%] [32m[1mLinking CXX shared library libmoveit_ompl_planner_plugin.so[0m
+[46.742s] [ 87%] Built target test_state_space
+[47.155s] [ 87%] Built target moveit_ompl_planner_plugin
+[47.851s] [ 90%] [32m[1mLinking CXX executable test_constrained_planning_state_space[0m
+[48.638s] [ 90%] Built target test_constrained_planning_state_space
+[50.275s] [ 92%] [32m[1mLinking CXX executable test_state_validity_checker[0m
+[50.353s] [ 95%] [32m[1mLinking CXX executable test_constrained_state_validity_checker[0m
+[51.101s] [ 95%] Built target test_state_validity_checker
+[51.198s] [ 95%] Built target test_constrained_state_validity_checker
+[51.485s] [ 97%] [32m[1mLinking CXX executable test_planning_context_manager[0m
+[51.667s] [100%] [32m[1mLinking CXX executable generate_state_database[0m
+[51.965s] [100%] Built target test_planning_context_manager
+[52.151s] [100%] Built target moveit_generate_state_database
+[52.167s] Invoked command in '/home/jellyfish/ws_moveit/build/moveit_planners_ompl' returned '0': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning/lib:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jellyfish/ws_moveit/install/moveit_core/lib:/home/jellyfish/ws_moveit/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/jellyfish/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jellyfish/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jellyfish/ws_moveit/build/moveit_planners_ompl -- -j12 -l12
+[52.224s] Invoking command in '/home/jellyfish/ws_moveit/build/moveit_planners_ompl': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning/lib:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jellyfish/ws_moveit/install/moveit_core/lib:/home/jellyfish/ws_moveit/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/jellyfish/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jellyfish/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jellyfish/ws_moveit/build/moveit_planners_ompl
+[52.232s] -- Install configuration: "Release"
+[52.233s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib/moveit_planners_ompl/generate_state_database
+[52.233s] -- Set runtime path of "/home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib/moveit_planners_ompl/generate_state_database" to ""
+[52.234s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include
+[52.234s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit
+[52.234s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface
+[52.234s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/planning_context_manager.h
+[52.234s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization
+[52.234s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/model_based_state_space_factory.h
+[52.234s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/model_based_state_space.h
+[52.234s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space
+[52.234s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/constrained_planning_state_space.h
+[52.234s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/joint_model_state_space_factory.h
+[52.235s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/constrained_planning_state_space_factory.h
+[52.235s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/joint_model_state_space.h
+[52.235s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/work_space
+[52.235s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/work_space/pose_model_state_space.h
+[52.235s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/work_space/pose_model_state_space_factory.h
+[52.235s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/model_based_planning_context.h
+[52.235s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/ompl_interface.h
+[52.235s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/detail
+[52.236s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/state_validity_checker.h
+[52.236s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/goal_union.h
+[52.236s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/threadsafe_state_storage.h
+[52.236s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constrained_goal_sampler.h
+[52.236s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constraints_library.h
+[52.236s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constrained_sampler.h
+[52.236s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/ompl_constraints.h
+[52.237s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constraint_approximations.h
+[52.237s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/projection_evaluators.h
+[52.237s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constrained_valid_state_sampler.h
+[52.237s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib/libmoveit_ompl_interface.so.2.5.5
+[52.240s] -- Set runtime path of "/home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib/libmoveit_ompl_interface.so.2.5.5" to ""
+[52.240s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib/libmoveit_ompl_interface.so
+[52.241s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib/libmoveit_ompl_planner_plugin.so.2.5.5
+[52.241s] -- Set runtime path of "/home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib/libmoveit_ompl_planner_plugin.so.2.5.5" to ""
+[52.241s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib/libmoveit_ompl_planner_plugin.so
+[52.241s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/library_path.sh
+[52.241s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/library_path.dsv
+[52.242s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/ompl_interface_plugin_description.xml
+[52.242s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/ament_index/resource_index/package_run_dependencies/moveit_planners_ompl
+[52.242s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/ament_index/resource_index/parent_prefix_path/moveit_planners_ompl
+[52.242s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/ament_prefix_path.sh
+[52.243s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/ament_prefix_path.dsv
+[52.243s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/path.sh
+[52.243s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/path.dsv
+[52.243s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.bash
+[52.243s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.sh
+[52.243s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.zsh
+[52.243s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.dsv
+[52.243s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/package.dsv
+[52.244s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/ament_index/resource_index/packages/moveit_planners_ompl
+[52.244s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_planners_ompl
+[52.244s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/export_moveit_planners_omplExport.cmake
+[52.244s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/export_moveit_planners_omplExport-release.cmake
+[52.244s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/ament_cmake_export_targets-extras.cmake
+[52.245s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/ament_cmake_export_dependencies-extras.cmake
+[52.245s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/moveit_planners_omplConfig.cmake
+[52.245s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/moveit_planners_omplConfig-version.cmake
+[52.245s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_planners_ompl/share/moveit_planners_ompl/package.xml
+[52.248s] Invoked command in '/home/jellyfish/ws_moveit/build/moveit_planners_ompl' returned '0': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jellyfish/ws_moveit/install/moveit_ros_planning/lib:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jellyfish/ws_moveit/install/moveit_core/lib:/home/jellyfish/ws_moveit/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/jellyfish/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jellyfish/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jellyfish/ws_moveit/build/moveit_planners_ompl

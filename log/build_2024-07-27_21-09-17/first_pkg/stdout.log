@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target first_pkg[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/first_pkg.dir/src/first_pkg.cpp.o[0m
+[100%] [32m[1mLinking CXX executable first_pkg[0m
+[100%] Built target first_pkg
+-- Install configuration: "Release"
+-- Installing: /home/jellyfish/ws_moveit/install/first_pkg/lib/first_pkg/first_pkg
+-- Set runtime path of "/home/jellyfish/ws_moveit/install/first_pkg/lib/first_pkg/first_pkg" to ""
+-- Up-to-date: /home/jellyfish/ws_moveit/install/first_pkg/share/ament_index/resource_index/package_run_dependencies/first_pkg
+-- Up-to-date: /home/jellyfish/ws_moveit/install/first_pkg/share/ament_index/resource_index/parent_prefix_path/first_pkg
+-- Up-to-date: /home/jellyfish/ws_moveit/install/first_pkg/share/first_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jellyfish/ws_moveit/install/first_pkg/share/first_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jellyfish/ws_moveit/install/first_pkg/share/first_pkg/environment/path.sh
+-- Up-to-date: /home/jellyfish/ws_moveit/install/first_pkg/share/first_pkg/environment/path.dsv
+-- Up-to-date: /home/jellyfish/ws_moveit/install/first_pkg/share/first_pkg/local_setup.bash
+-- Up-to-date: /home/jellyfish/ws_moveit/install/first_pkg/share/first_pkg/local_setup.sh
+-- Up-to-date: /home/jellyfish/ws_moveit/install/first_pkg/share/first_pkg/local_setup.zsh
+-- Up-to-date: /home/jellyfish/ws_moveit/install/first_pkg/share/first_pkg/local_setup.dsv
+-- Installing: /home/jellyfish/ws_moveit/install/first_pkg/share/first_pkg/package.dsv
+-- Up-to-date: /home/jellyfish/ws_moveit/install/first_pkg/share/ament_index/resource_index/packages/first_pkg
+-- Up-to-date: /home/jellyfish/ws_moveit/install/first_pkg/share/first_pkg/cmake/first_pkgConfig.cmake
+-- Up-to-date: /home/jellyfish/ws_moveit/install/first_pkg/share/first_pkg/cmake/first_pkgConfig-version.cmake
+-- Up-to-date: /home/jellyfish/ws_moveit/install/first_pkg/share/first_pkg/package.xml

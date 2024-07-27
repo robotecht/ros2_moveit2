@@ -1,0 +1,24 @@
+[0.023s] Invoking command in '/home/jellyfish/ws_moveit/src/build/first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jellyfish/ws_moveit/src/build/first_pkg -- -j12 -l12
+[0.151s] [35m[1mConsolidate compiler generated dependencies of target first_pkg[0m
+[0.202s] [ 50%] [32mBuilding CXX object CMakeFiles/first_pkg.dir/src/first_pkg.cpp.o[0m
+[4.463s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.463s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:32:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KMoveGroupInterface[m[K’
+[4.463s]    32 |   using moveit::planning_interface::MoveGroupInterface[01;31m[K [m[K[32m[KMoveGroupInterface[m[K(node, "panda_arm");
+[4.464s]       |                                                       [01;31m[K^[m[K[32m[K~~~~~~~~~~~~~~~~~~[m[K
+[4.464s]       |                                                       [32m[K;[m[K
+[4.464s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:51:21:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+[4.464s]    51 |   MoveGroupInterface[01;31m[K.[m[KsetPoseTarget(GoalPose);
+[4.464s]       |                     [01;31m[K^[m[K
+[4.464s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:57:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[4.465s]    57 |   auto const outcome = static_cast<bool>(MoveGroupInterface[01;31m[K.[m[Kplan(first_plan));
+[4.465s]       |                                                            [01;31m[K^[m[K
+[4.465s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:62:23:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+[4.465s]    62 |     MoveGroupInterface[01;31m[K.[m[Kexecute(first_plan);
+[4.465s]       |                       [01;31m[K^[m[K
+[4.465s] [01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:70:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[4.466s]    70 |   rclcpp[01;31m[K.[m[Kshutdown();
+[4.466s]       |         [01;31m[K^[m[K
+[6.615s] gmake[2]: *** [CMakeFiles/first_pkg.dir/build.make:76: CMakeFiles/first_pkg.dir/src/first_pkg.cpp.o] Error 1
+[6.616s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/first_pkg.dir/all] Error 2
+[6.616s] gmake: *** [Makefile:146: all] Error 2
+[6.619s] Invoked command in '/home/jellyfish/ws_moveit/src/build/first_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jellyfish/ws_moveit/src/build/first_pkg -- -j12 -l12

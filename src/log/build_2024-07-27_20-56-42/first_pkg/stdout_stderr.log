@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target first_pkg[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/first_pkg.dir/src/first_pkg.cpp.o[0m
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jellyfish/ws_moveit/src/first_pkg/src/first_pkg.cpp:70:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   70 |   rclcpp[01;31m[K.[m[Kshutdown();
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/first_pkg.dir/build.make:76: CMakeFiles/first_pkg.dir/src/first_pkg.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/first_pkg.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

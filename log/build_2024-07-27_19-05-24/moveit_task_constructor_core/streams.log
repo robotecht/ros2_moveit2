@@ -1,0 +1,362 @@
+[0.103s] Invoking command in '/home/jellyfish/ws_moveit/build/moveit_task_constructor_core': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/home/jellyfish/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface/lib:/home/jellyfish/ws_moveit/install/moveit_ros_move_group/lib:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse/lib:/home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib:/home/jellyfish/ws_moveit/install/moveit_kinematics/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning/lib:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager/lib:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/jellyfish/ws_moveit/install/moveit_core/lib:/home/jellyfish/ws_moveit/install/rviz_marker_tools/lib:/home/jellyfish/ws_moveit/install/srdfdom/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jellyfish/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jellyfish/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jellyfish/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jellyfish/ws_moveit/src/moveit_task_constructor/core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jellyfish/ws_moveit/install/moveit_task_constructor_core
+[0.189s] -- The C compiler identification is GNU 11.4.0
+[0.310s] -- The CXX compiler identification is GNU 11.4.0
+[0.330s] -- Detecting C compiler ABI info
+[0.475s] -- Detecting C compiler ABI info - done
+[0.482s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.482s] -- Detecting C compile features
+[0.482s] -- Detecting C compile features - done
+[0.485s] -- Detecting CXX compiler ABI info
+[0.613s] -- Detecting CXX compiler ABI info - done
+[0.632s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.632s] -- Detecting CXX compile features
+[0.633s] -- Detecting CXX compile features - done
+[0.650s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.939s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.123s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[1.133s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.201s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.212s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.226s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.276s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.395s] -- Found moveit_common: 2.5.5 (/home/jellyfish/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+[1.463s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.469s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.469s] -- BACKWARD_HAS_UNWIND=1
+[1.469s] -- BACKWARD_HAS_BACKTRACE=0
+[1.469s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.469s] -- BACKWARD_HAS_DW=1
+[1.469s] -- BACKWARD_HAS_BFD=0
+[1.470s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.472s] -- Found moveit_core: 2.5.5 (/home/jellyfish/ws_moveit/install/moveit_core/share/moveit_core/cmake)
+[1.816s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.924s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.018s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.025s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.220s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.285s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.349s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.367s] -- Found Threads: TRUE  
+[2.523s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.528s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.582s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.778s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.086s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.192s] -- Found moveit_ros_planning: 2.5.5 (/home/jellyfish/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[4.196s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[4.594s] -- Found moveit_ros_planning_interface: 2.5.5 (/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[4.598s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[4.774s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[5.005s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[5.412s] -- Found moveit_task_constructor_msgs: 0.1.3 (/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake)
+[5.685s] -- Found py_binding_tools: 2.0.0 (/opt/ros/humble/share/py_binding_tools/cmake)
+[5.696s] -- Found rviz_marker_tools: 0.1.3 (/home/jellyfish/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake)
+[5.992s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[5.993s] [0mMissing content of submodule pybind11: Use 'git clone --recurse-submodule' in future.
+[5.993s] Checking out content automatically[0m
+[6.070s] Submodule 'core/python/pybind11' (https://github.com/pybind/pybind11) registered for path 'pybind11'
+[6.128s] Cloning into '/home/jellyfish/ws_moveit/src/moveit_task_constructor/core/python/pybind11'...
+[10.389s] From https://github.com/pybind/pybind11
+[10.389s]  * branch              f4bc71f981d4eb2dd780215fd3c5a7420f1f03aa -> FETCH_HEAD
+[10.451s] Submodule path 'pybind11': checked out 'f4bc71f981d4eb2dd780215fd3c5a7420f1f03aa'
+[10.460s] -- pybind11 v2.13.0 dev1
+[10.510s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.564s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.567s] -- Performing Test HAS_FLTO
+[10.793s] -- Performing Test HAS_FLTO - Success
+[10.816s] -- Found ament_cmake_pytest: 1.3.9 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[10.830s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[10.843s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.948s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.948s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.949s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.949s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.970s] -- Found PythonExtra: .so  
+[11.433s] -- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[11.438s] -- Found ament_cmake_gmock: 1.3.9 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[11.438s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[11.439s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.495s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.495s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.495s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.511s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[11.532s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.576s] -- Configuring done
+[12.045s] -- Generating done
+[12.050s] -- Build files have been written to: /home/jellyfish/ws_moveit/build/moveit_task_constructor_core
+[12.076s] Invoked command in '/home/jellyfish/ws_moveit/build/moveit_task_constructor_core' returned '0': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/home/jellyfish/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface/lib:/home/jellyfish/ws_moveit/install/moveit_ros_move_group/lib:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse/lib:/home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib:/home/jellyfish/ws_moveit/install/moveit_kinematics/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning/lib:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager/lib:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/jellyfish/ws_moveit/install/moveit_core/lib:/home/jellyfish/ws_moveit/install/rviz_marker_tools/lib:/home/jellyfish/ws_moveit/install/srdfdom/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jellyfish/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jellyfish/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jellyfish/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jellyfish/ws_moveit/src/moveit_task_constructor/core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jellyfish/ws_moveit/install/moveit_task_constructor_core
+[12.079s] Invoking command in '/home/jellyfish/ws_moveit/build/moveit_task_constructor_core': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/home/jellyfish/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface/lib:/home/jellyfish/ws_moveit/install/moveit_ros_move_group/lib:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse/lib:/home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib:/home/jellyfish/ws_moveit/install/moveit_kinematics/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning/lib:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager/lib:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/jellyfish/ws_moveit/install/moveit_core/lib:/home/jellyfish/ws_moveit/install/rviz_marker_tools/lib:/home/jellyfish/ws_moveit/install/srdfdom/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jellyfish/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jellyfish/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jellyfish/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jellyfish/ws_moveit/build/moveit_task_constructor_core -- -j12 -l12
+[12.179s] [  3%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/container.cpp.o[0m
+[12.179s] [  4%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/cost_terms.cpp.o[0m
+[12.179s] [  4%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/merge.cpp.o[0m
+[12.179s] [  7%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/marker_tools.cpp.o[0m
+[12.179s] [  7%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/properties.cpp.o[0m
+[12.179s] [  4%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/introspection.cpp.o[0m
+[12.181s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[12.181s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[12.184s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[12.189s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[12.193s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[12.196s] [ 12%] Built target ament_cmake_python_copy_moveit
+[12.725s] running egg_info
+[12.726s] creating moveit.egg-info
+[12.727s] writing moveit.egg-info/PKG-INFO
+[12.727s] writing dependency_links to moveit.egg-info/dependency_links.txt
+[12.728s] writing top-level names to moveit.egg-info/top_level.txt
+[12.728s] writing manifest file 'moveit.egg-info/SOURCES.txt'
+[12.733s] reading manifest file 'moveit.egg-info/SOURCES.txt'
+[12.734s] writing manifest file 'moveit.egg-info/SOURCES.txt'
+[12.793s] [ 12%] Built target ament_cmake_python_build_moveit_egg
+[12.815s] [ 14%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/stage.cpp.o[0m
+[13.570s] [ 15%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[13.695s] [ 15%] Built target gtest_main
+[13.716s] [ 16%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/storage.cpp.o[0m
+[14.087s] [ 17%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[14.203s] [ 17%] Built target gmock_main
+[14.222s] [ 18%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/task.cpp.o[0m
+[15.320s] [ 20%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/utils.cpp.o[0m
+[16.848s] [ 21%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/planner_interface.cpp.o[0m
+[23.475s] [ 22%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/cartesian_path.cpp.o[0m
+[23.552s] [ 23%] [32m[1mLinking CXX static library libgmock.a[0m
+[23.566s] [ 24%] [32m[1mLinking CXX static library libgtest.a[0m
+[23.691s] [ 24%] Built target gmock
+[23.699s] [ 24%] Built target gtest
+[23.712s] [ 25%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/joint_interpolation.cpp.o[0m
+[23.719s] [ 27%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/pipeline_planner.cpp.o[0m
+[25.051s] [ 28%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/multi_planner.cpp.o[0m
+[40.277s] [ 29%] [32m[1mLinking CXX shared library libmoveit_task_constructor_core.so[0m
+[40.658s] [ 29%] Built target moveit_task_constructor_core
+[40.714s] [ 30%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/fix_collision_objects.cpp.o[0m
+[40.714s] [ 31%] [32mBuilding CXX object test/CMakeFiles/gtest_utils.dir/stage_mockups.cpp.o[0m
+[40.714s] [ 32%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/fixed_state.cpp.o[0m
+[40.715s] [ 35%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/modify_planning_scene.cpp.o[0m
+[40.715s] [ 35%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/generate_place_pose.cpp.o[0m
+[40.716s] [ 36%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/current_state.cpp.o[0m
+[40.717s] [ 37%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/generate_random_pose.cpp.o[0m
+[40.717s] [ 38%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/generate_grasp_pose.cpp.o[0m
+[40.719s] [ 40%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/generate_pose.cpp.o[0m
+[40.720s] [ 43%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/fixed_cartesian_poses.cpp.o[0m
+[40.720s] [ 43%] [32mBuilding CXX object test/CMakeFiles/gtest_utils.dir/models.cpp.o[0m
+[40.720s] [ 43%] [32mBuilding CXX object test/CMakeFiles/gtest_utils.dir/gtest_value_printers.cpp.o[0m
+[48.039s] [ 44%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/compute_ik.cpp.o[0m
+[49.163s] [ 45%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/passthrough.cpp.o[0m
+[52.379s] [ 47%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/predicate_filter.cpp.o[0m
+[53.720s] [ 48%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/connect.cpp.o[0m
+[54.701s] [ 49%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/move_to.cpp.o[0m
+[55.116s] [ 50%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/move_relative.cpp.o[0m
+[55.970s] [ 51%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/simple_grasp.cpp.o[0m
+[56.000s] [ 52%] [32m[1mLinking CXX shared library libgtest_utils.so[0m
+[56.012s] [ 54%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stages.dir/pick.cpp.o[0m
+[56.549s] [ 54%] Built target gtest_utils
+[73.857s] [ 55%] [32m[1mLinking CXX shared library libmoveit_task_constructor_core_stages.so[0m
+[74.215s] [ 55%] Built target moveit_task_constructor_core_stages
+[74.259s] [ 57%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-cost-terms.dir/test_cost_terms.cpp.o[0m
+[74.259s] [ 57%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-container.dir/test_container.cpp.o[0m
+[74.259s] [ 61%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-cost-queue.dir/test_cost_queue.cpp.o[0m
+[74.259s] [ 61%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-fallback.dir/test_fallback.cpp.o[0m
+[74.259s] [ 61%] [32mBuilding CXX object src/stages/CMakeFiles/moveit_task_constructor_core_stage_plugins.dir/plugins.cpp.o[0m
+[74.260s] [ 63%] [32mBuilding CXX object python/bindings/CMakeFiles/pymoveit_mtc.dir/src/properties.cpp.o[0m
+[74.260s] [ 63%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-mockups.dir/test_mockups.cpp.o[0m
+[74.263s] [ 65%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-interface-state.dir/test_interface_state.cpp.o[0m
+[74.264s] [ 65%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-stage.dir/test_stage.cpp.o[0m
+[74.264s] [ 68%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-pruning.dir/test_pruning.cpp.o[0m
+[74.265s] [ 68%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-serial.dir/test_serial.cpp.o[0m
+[74.265s] [ 69%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-properties.dir/test_properties.cpp.o[0m
+[77.561s] [ 70%] [32m[1mLinking CXX shared library libmoveit_task_constructor_core_stage_plugins.so[0m
+[77.989s] [ 70%] Built target moveit_task_constructor_core_stage_plugins
+[78.038s] [ 71%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-move-to.dir/test_move_to.cpp.o[0m
+[78.658s] [ 72%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-properties[0m
+[79.429s] [ 72%] Built target moveit_task_constructor_core-test-properties
+[79.475s] [ 74%] [32mBuilding CXX object test/CMakeFiles/moveit_task_constructor_core-test-move-relative.dir/test_move_relative.cpp.o[0m
+[81.528s] [ 75%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-cost-queue[0m
+[82.345s] [ 75%] Built target moveit_task_constructor_core-test-cost-queue
+[82.393s] [ 76%] [32mBuilding CXX object test/CMakeFiles/pick_ur5.dir/pick_ur5.cpp.o[0m
+[84.364s] [ 77%] [32mBuilding CXX object python/bindings/CMakeFiles/pymoveit_mtc.dir/src/solvers.cpp.o[0m
+[89.803s] [ 78%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-interface-state[0m
+[90.824s] [ 78%] Built target moveit_task_constructor_core-test-interface-state
+[90.873s] [ 80%] [32mBuilding CXX object test/CMakeFiles/pick_pr2.dir/pick_pr2.cpp.o[0m
+[91.213s] [ 81%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-pruning[0m
+[91.494s] [ 82%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-stage[0m
+[91.507s] [ 83%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-serial[0m
+[92.089s] [ 83%] Built target moveit_task_constructor_core-test-pruning
+[92.138s] [ 84%] [32mBuilding CXX object test/CMakeFiles/pick_pa10.dir/pick_pa10.cpp.o[0m
+[92.389s] [ 84%] Built target moveit_task_constructor_core-test-serial
+[92.408s] [ 85%] [32mBuilding CXX object python/bindings/CMakeFiles/pymoveit_mtc.dir/src/core.cpp.o[0m
+[92.586s] [ 85%] Built target moveit_task_constructor_core-test-stage
+[92.605s] [ 87%] [32mBuilding CXX object python/bindings/CMakeFiles/pymoveit_mtc.dir/src/stages.cpp.o[0m
+[93.165s] [ 88%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-fallback[0m
+[93.330s] [ 89%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-cost-terms[0m
+[93.890s] [ 90%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-mockups[0m
+[94.210s] [ 90%] Built target moveit_task_constructor_core-test-fallback
+[94.231s] [ 91%] [32mBuilding CXX object python/bindings/CMakeFiles/pymoveit_mtc.dir/src/module.cpp.o[0m
+[94.386s] [ 91%] Built target moveit_task_constructor_core-test-cost-terms
+[94.678s] [ 92%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-container[0m
+[94.701s] [ 92%] Built target moveit_task_constructor_core-test-mockups
+[95.384s] [ 92%] Built target moveit_task_constructor_core-test-container
+[95.997s] [ 94%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-move-relative[0m
+[96.696s] [ 95%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-move-to[0m
+[96.903s] [ 95%] Built target moveit_task_constructor_core-test-move-relative
+[97.468s] [ 96%] [32m[1mLinking CXX executable pick_ur5[0m
+[97.543s] [ 96%] Built target moveit_task_constructor_core-test-move-to
+[97.905s] [ 96%] Built target pick_ur5
+[101.891s] [ 97%] [32m[1mLinking CXX executable pick_pr2[0m
+[102.336s] [ 97%] Built target pick_pr2
+[103.580s] [ 98%] [32m[1mLinking CXX executable pick_pa10[0m
+[103.985s] [ 98%] Built target pick_pa10
+[109.624s] [100%] [32m[1mLinking CXX shared module pymoveit_mtc.cpython-310-x86_64-linux-gnu.so[0m
+[111.507s] lto-wrapper: warning: using serial compilation of 12 LTRANS jobs
+[121.740s] [100%] Built target pymoveit_mtc
+[121.782s] Invoked command in '/home/jellyfish/ws_moveit/build/moveit_task_constructor_core' returned '0': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/home/jellyfish/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface/lib:/home/jellyfish/ws_moveit/install/moveit_ros_move_group/lib:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse/lib:/home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib:/home/jellyfish/ws_moveit/install/moveit_kinematics/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning/lib:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager/lib:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/jellyfish/ws_moveit/install/moveit_core/lib:/home/jellyfish/ws_moveit/install/rviz_marker_tools/lib:/home/jellyfish/ws_moveit/install/srdfdom/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jellyfish/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jellyfish/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jellyfish/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jellyfish/ws_moveit/build/moveit_task_constructor_core -- -j12 -l12
+[121.842s] Invoking command in '/home/jellyfish/ws_moveit/build/moveit_task_constructor_core': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/home/jellyfish/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface/lib:/home/jellyfish/ws_moveit/install/moveit_ros_move_group/lib:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse/lib:/home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib:/home/jellyfish/ws_moveit/install/moveit_kinematics/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning/lib:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager/lib:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/jellyfish/ws_moveit/install/moveit_core/lib:/home/jellyfish/ws_moveit/install/rviz_marker_tools/lib:/home/jellyfish/ws_moveit/install/srdfdom/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jellyfish/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jellyfish/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jellyfish/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jellyfish/ws_moveit/build/moveit_task_constructor_core
+[121.864s] -- Install configuration: "Release"
+[121.864s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/pythonpath.sh
+[121.865s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/pythonpath.dsv
+[121.865s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit-0.1.3-py3.10.egg-info
+[121.865s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit-0.1.3-py3.10.egg-info/PKG-INFO
+[121.865s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit-0.1.3-py3.10.egg-info/SOURCES.txt
+[121.866s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit-0.1.3-py3.10.egg-info/dependency_links.txt
+[121.866s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit-0.1.3-py3.10.egg-info/top_level.txt
+[121.867s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit
+[121.867s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/__init__.py
+[121.867s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor
+[121.867s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor/stages.py
+[121.867s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor/__init__.py
+[121.868s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor/core.py
+[121.901s] Listing '/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit'...
+[121.901s] Compiling '/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/__init__.py'...
+[121.901s] Listing '/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor'...
+[121.901s] Compiling '/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor/__init__.py'...
+[121.902s] Compiling '/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor/core.py'...
+[121.902s] Compiling '/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/moveit/task_constructor/stages.py'...
+[121.905s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include
+[121.905s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit
+[121.905s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor
+[121.905s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h
+[121.905s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers
+[121.905s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h
+[121.906s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h
+[121.906s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/multi_planner.h
+[121.906s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h
+[121.906s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h
+[121.907s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h
+[121.908s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h
+[121.908s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/moveit_compat.h
+[121.909s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/merge.h
+[121.909s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h
+[121.909s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h
+[121.910s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h
+[121.910s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h
+[121.911s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/container.h
+[121.911s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h
+[121.911s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h
+[121.912s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h
+[121.912s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/marker_tools.h
+[121.912s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages
+[121.913s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h
+[121.913s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h
+[121.913s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/noop.h
+[121.914s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h
+[121.914s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h
+[121.914s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h
+[121.915s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h
+[121.915s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h
+[121.915s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h
+[121.916s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h
+[121.916s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h
+[121.916s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h
+[121.917s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h
+[121.917s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/simple_grasp.h
+[121.917s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h
+[121.918s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h
+[121.918s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/pick.h
+[121.919s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h
+[121.919s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h
+[121.919s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_terms.h
+[121.919s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python
+[121.919s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/task_constructor
+[121.920s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/task_constructor/properties.h
+[121.920s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/motion_planning_stages_plugin_description.xml
+[121.921s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/library_path.sh
+[121.922s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/library_path.dsv
+[121.922s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_core
+[121.923s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_core
+[121.923s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/ament_prefix_path.sh
+[121.924s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/ament_prefix_path.dsv
+[121.924s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/path.sh
+[121.924s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/path.dsv
+[121.925s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.bash
+[121.925s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.sh
+[121.926s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.zsh
+[121.926s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.dsv
+[121.926s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/package.dsv
+[121.927s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/ament_index/resource_index/packages/moveit_task_constructor_core
+[121.928s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/ament_index/resource_index/moveit_task_constructor_core__pluginlib__plugin/moveit_task_constructor_core
+[121.928s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreTargetsExport.cmake
+[121.929s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreTargetsExport-release.cmake
+[121.929s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_targets-extras.cmake
+[121.929s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[121.930s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake
+[121.930s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig-version.cmake
+[121.930s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/package.xml
+[121.931s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core.so
+[121.939s] -- Set runtime path of "/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core.so" to ""
+[121.940s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stages.so
+[121.944s] -- Set runtime path of "/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stages.so" to ""
+[121.944s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stage_plugins.so
+[121.945s] -- Set runtime path of "/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stage_plugins.so" to ""
+[121.946s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11
+[121.946s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/type_caster_pyobject_ptr.h
+[121.947s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/numpy.h
+[121.947s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/operators.h
+[121.948s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/embed.h
+[121.948s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/stl_bind.h
+[121.948s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/smart_holder.h
+[121.949s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/functional.h
+[121.949s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail
+[121.949s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/typeid.h
+[121.950s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/descr.h
+[121.950s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/smart_holder_poc.h
+[121.950s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/dynamic_raw_ptr_cast_if_possible.h
+[121.951s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/init.h
+[121.951s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/class.h
+[121.952s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/internals.h
+[121.952s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/smart_holder_type_casters.h
+[121.953s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/type_caster_base.h
+[121.953s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/common.h
+[121.954s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/smart_holder_sfinae_hooks_only.h
+[121.954s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/type_caster_odr_guard.h
+[121.954s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen
+[121.955s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen/tensor.h
+[121.955s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen/matrix.h
+[121.955s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen/common.h
+[121.956s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/pybind11.h
+[121.957s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/stl
+[121.957s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/stl/filesystem.h
+[121.957s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/pytypes.h
+[121.958s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/complex.h
+[121.958s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/chrono.h
+[121.959s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/cast.h
+[121.959s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen.h
+[121.960s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/iostream.h
+[121.960s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/eval.h
+[121.960s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/attr.h
+[121.961s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/common.h
+[121.961s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/gil.h
+[121.961s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/options.h
+[121.962s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/typing.h
+[121.962s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/buffer_info.h
+[121.963s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/gil_safe_call_once.h
+[121.963s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/trampoline_self_life_support.h
+[121.963s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/include/moveit/python/pybind11/stl.h
+[121.964s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11Config.cmake
+[121.964s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11ConfigVersion.cmake
+[121.964s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/FindPythonLibsNew.cmake
+[121.965s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11Common.cmake
+[121.965s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11Tools.cmake
+[121.965s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11NewTools.cmake
+[121.966s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11Targets.cmake
+[121.967s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/share/pkgconfig/pybind11.pc
+[121.967s] -- Installing: /home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/pymoveit_mtc.cpython-310-x86_64-linux-gnu.so
+[121.971s] -- Set runtime path of "/home/jellyfish/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages/pymoveit_mtc.cpython-310-x86_64-linux-gnu.so" to ""
+[121.975s] Invoked command in '/home/jellyfish/ws_moveit/build/moveit_task_constructor_core' returned '0': AMENT_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/moveit_configs_utils:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/home/jellyfish/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jellyfish/ws_moveit/install/moveit_planners:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/jellyfish/ws_moveit/install/moveit_ros_move_group:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse:/home/jellyfish/ws_moveit/install/moveit_planners_ompl:/home/jellyfish/ws_moveit/install/moveit_kinematics:/home/jellyfish/ws_moveit/install/moveit_ros_planning:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/jellyfish/ws_moveit/install/moveit_core:/home/jellyfish/ws_moveit/install/rviz_marker_tools:/home/jellyfish/ws_moveit/install/moveit_resources_panda_moveit_config:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/jellyfish/ws_moveit/install/srdfdom:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_support:/home/jellyfish/ws_moveit/install/moveit_resources_pr2_description:/home/jellyfish/ws_moveit/install/moveit_resources_panda_description:/home/jellyfish/ws_moveit/install/moveit_resources_fanuc_description:/home/jellyfish/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning_interface/lib:/home/jellyfish/ws_moveit/install/moveit_ros_move_group/lib:/home/jellyfish/ws_moveit/install/moveit_ros_warehouse/lib:/home/jellyfish/ws_moveit/install/moveit_planners_ompl/lib:/home/jellyfish/ws_moveit/install/moveit_kinematics/lib:/home/jellyfish/ws_moveit/install/moveit_ros_planning/lib:/home/jellyfish/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/jellyfish/ws_moveit/install/moveit_simple_controller_manager/lib:/home/jellyfish/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/jellyfish/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/jellyfish/ws_moveit/install/moveit_core/lib:/home/jellyfish/ws_moveit/install/rviz_marker_tools/lib:/home/jellyfish/ws_moveit/install/srdfdom/lib:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jellyfish/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/jellyfish/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/jellyfish/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/jellyfish/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jellyfish/ws_moveit/build/moveit_task_constructor_core
