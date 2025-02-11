@@ -1,4 +1,0 @@
-Invoking command in '/home/jellyfish/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jellyfish/ws_moveit/build/moveit_common -- -j12 -l12
-Invoked command in '/home/jellyfish/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jellyfish/ws_moveit/build/moveit_common -- -j12 -l12
-Invoking command in '/home/jellyfish/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jellyfish/ws_moveit/build/moveit_common
-Invoked command in '/home/jellyfish/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jellyfish/ws_moveit/build/moveit_common
